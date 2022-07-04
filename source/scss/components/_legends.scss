@@ -1,0 +1,42 @@
+@use '../abstracts' as *;
+
+.legends {
+	grid-area: legends;
+	align-self: end;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+	ul {
+		display: block;
+		padding: 0;
+		margin: 15px 0;
+		list-style: none;
+	}
+
+	li {
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	&__chart {
+		display: flex;
+		width: 100%;
+		margin-top: 5px;
+	} 
+
+	&__chart > div {
+		margin-left: 5px;
+		height: 3px;
+	} 
+
+	&__chart {
+		.simple { background: linear-gradient(to left, $site-simple 0%, rgba($site-simple, 0) 100%); }
+		.isolated { background: $site-isolated; }
+		.proxy { background: $site-proxy; }
+		.ssl { background: $site-ssl; }
+	}
+}

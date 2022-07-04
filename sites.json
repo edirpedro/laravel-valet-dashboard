@@ -1,0 +1,75 @@
+[
+	{
+		"site":"me.test",
+		"ssl":"",
+		"url":"http://me.test",
+		"path":"/Work/Me/me.xyz/public",
+		"php":"php@8.1",
+		"type":"simple",
+		"group":"Me"
+	},{
+		"site":"sample.test",
+		"ssl":"X",
+		"url":"https://sample.test",
+		"path":"/Work/John Doh/sample.xyz/public",
+		"php":"php@8.1",
+		"type":"simple",
+		"group":"John Doh"
+	},{
+		"site":"johndoh.test",
+		"ssl":"",
+		"url":"http://johndoh.test",
+		"path":"/Work/John Doh/johndoh.xyz/public",
+		"php":"php@8.1",
+		"type":"simple",
+		"group":"John Doh"
+	},{
+		"site":"mary.test",
+		"ssl":"",
+		"url":"http://mary.test",
+		"path":"/Work/John Doh/mary.xyz/public",
+		"php":"php@7.4",
+		"type":"isolated",
+		"group":"John Doh"
+	},{
+		"site":"fuel.test",
+		"ssl":"X",
+		"url":"https://fuel.test",
+		"path":"/Work/John Doh/fueld.xyz/public",
+		"php":"php@7.4",
+		"type":"isolated",
+		"group":"John Doh"
+	},{
+		"site":"limaco.test",
+		"ssl":"X",
+		"url":"https://limaco.test",
+		"path":"/Work/Lima Co/limaco.xyz/public",
+		"php":"php@8.1",
+		"type":"simple",
+		"group":"Lima Co"
+	},{
+		"site":"app.limaco.test",
+		"ssl":"X",
+		"url":"https://app.limaco.test",
+		"path":"/Work/Lima Co/app.limaco.xyz/public",
+		"php":"php@8.1",
+		"type":"simple",
+		"group":"Lima Co"
+	},{
+		"site":"origami.test",
+		"ssl":"X",
+		"url":"http://origami.test",
+		"path":"/Work/Origami/origami.xyz/public",
+		"php":"php@7.4",
+		"type":"isolated",
+		"group":"Origami"
+	},{
+		"site":"elasticsearch.test",
+		"ssl":"X",
+		"url":"https://elasticsearch.test",
+		"path":"https://127.0.0.1:3050",
+		"php":"",
+		"type":"proxy",
+		"group":"Proxies"
+	}
+]

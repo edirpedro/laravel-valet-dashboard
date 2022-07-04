@@ -1,0 +1,36 @@
+@use '../abstracts' as *;
+
+.menu {
+	grid-area: auto / 5 / auto / 7;
+	align-self: center;
+
+	ul {
+		display: block;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		cursor: pointer;
+		display: block;
+		font-size: 16px;
+		line-height: 25px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		text-decoration: none;
+		overflow: hidden;
+		color: $ui-text;
+
+		&.active,
+		&:hover {
+			color: $ui-color;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+@use '../abstracts' as *;
+
+.valet {
+	grid-area: valet;
+	align-self: center;
+	
+	h1 {
+		font-size: 72px;
+		line-height: 1;
+		text-align: right;
+		text-transform: uppercase;
+		
+		small {
+			display: block;
+			font-size: 35px;
+			font-weight: 400;
+			opacity: .5;
+		}
+	}
+}

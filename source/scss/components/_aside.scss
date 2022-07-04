@@ -1,0 +1,18 @@
+@use '../abstracts' as *;
+
+.aside {
+	grid-area: aside;
+	align-self: flex-end;
+	text-align: right;
+	line-height: 1;
+
+	&__total {
+		font-size: 60px;
+		font-weight: bold;
+	}
+
+	&__groups {
+		font-size: 40px;
+		font-weight: bold;
+	}
+}

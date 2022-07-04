@@ -1,0 +1,20 @@
+@use '../abstracts' as *;
+
+.layout {
+	display: grid;
+	grid-template-areas:
+		'aside content info'
+		'aside content valet'
+		'aside content legends';
+	grid-template-columns: auto 60% auto;
+	grid-template-rows: 1fr auto 1fr;
+	grid-gap: $gap;
+	padding: $gap;
+}
+
+.content {
+	grid-area: content;
+	display: grid;
+	grid-gap: $gap;
+	grid-template-columns: repeat(6, 1fr);
+}
